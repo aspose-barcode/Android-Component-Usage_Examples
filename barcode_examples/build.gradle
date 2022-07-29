@@ -1,6 +1,12 @@
 project.description = 'Aspose.Barcode for Android external tester module'
 apply plugin: 'com.android.library'
+apply plugin: 'idea'
 
+idea {
+    module {
+        downloadJavadoc = true
+    }
+}
 
 repositories {
     google() {
